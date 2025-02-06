@@ -6,13 +6,13 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>plugfy.core.ico</ApplicationIcon>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <Title>Plugfy.Core.Data.Communication.MemoryShared</Title>
+    <Title>Plugfy.Core.Data.Communication.SharedMemory</Title>
     <Authors>Willian Patrick dos Santos</Authors>
     <Company>Plugfy</Company>
     <PackageProjectUrl>https://plugfy.org</PackageProjectUrl>
     <PackageIcon>plugfy-core-logo-128x128.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/PlugfyFoundation/Plugfy.Core.Data.Communication.MemoryShared</RepositoryUrl>
+    <RepositoryUrl>https://github.com/PlugfyFoundation/Plugfy.Core.Data.Communication.SharedMemory</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <AnalysisLevel>latest-recommended</AnalysisLevel>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
