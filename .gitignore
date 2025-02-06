@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/bin/Debug
+/obj
+/Plugfy.Core.Extension.Library.Runner.DotNet.tmp

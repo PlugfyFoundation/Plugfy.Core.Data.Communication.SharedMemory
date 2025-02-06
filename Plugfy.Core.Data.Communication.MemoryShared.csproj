@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>plugfy.core.ico</ApplicationIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>Plugfy.Core.Data.Communication.MemoryShared</Title>
+    <Authors>Willian Patrick dos Santos</Authors>
+    <Company>Plugfy</Company>
+    <PackageProjectUrl>https://plugfy.org</PackageProjectUrl>
+    <PackageIcon>plugfy-core-logo-128x128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/PlugfyFoundation/Plugfy.Core.Data.Communication.MemoryShared</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove=".github\**" />
+    <EmbeddedResource Remove=".github\**" />
+    <None Remove=".github\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="plugfy.core.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Plugfy.Core.Commons" Version="1.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="plugfy-core-logo-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
