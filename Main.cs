@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.IO.MemoryMappedFiles;
 using Newtonsoft.Json;
-using Plugfy.Core.Commons.Runtime; // Assumes that the IDataCommunication interface and DataReceivedEventArgs are defined in this namespace
+using Plugfy.Core.Commons.Communication; 
 
 namespace Plugfy.Core.Communication
 {
