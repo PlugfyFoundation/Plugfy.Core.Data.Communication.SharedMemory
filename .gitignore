@@ -3,6 +3,5 @@
 ################################################################################
 
 /.vs
-/bin/Debug
+/bin
 /obj
-/Plugfy.Core.Extension.Library.Runner.DotNet.tmp
